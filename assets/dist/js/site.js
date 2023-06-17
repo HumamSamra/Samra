@@ -8,3 +8,8 @@
     });
 
 })(jQuery);
+
+$('a[name="changeLang"]').click(function (){
+    localStorage.setItem("language", this.id.toString());
+    window.location.reload();
+});
