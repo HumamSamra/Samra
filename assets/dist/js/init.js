@@ -1,11 +1,13 @@
 const appSettings = {
     name: "Coffee Shop",
-    world: "Hello World"
+    world: "Hello World",
+    samra: "Samra"
 };
 
 const appSettingsAR = {
     name: "سوق القهوة",
-    world: "مرحباً بالعالم"
+    world: "مرحباً بالعالم",
+    samra: "سمرة"
 };
 
 function init() {
